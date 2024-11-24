@@ -2,6 +2,10 @@
 
 A classic Snake Game implemented in Python using the `turtle` module. This interactive game challenges players to control a snake that grows in size as it eats food, while avoiding collisions with walls or itself.
 
+<img src="https://github.com/user-attachments/assets/211ccea3-d8d7-4077-9a76-4a3274b83469" alt="Snake Game" width="300">
+<img src="https://github.com/user-attachments/assets/b1935348-1cd7-482d-87ff-ecfdb103ed22" alt="Snake Game" width="300">
+<img src="https://github.com/user-attachments/assets/7389f3e1-e6ac-4df6-95f1-0de32c6e6c9d" alt="Snake Game" width="300">
+
 ---
 
 ## Table of Contents
@@ -10,8 +14,6 @@ A classic Snake Game implemented in Python using the `turtle` module. This inter
 3. [Files in the Project](#files-in-the-project)
 4. [How to Run](#how-to-run)
 5. [Game Controls](#game-controls)
-6. [Future Improvements](#future-improvements)
-7. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -49,7 +51,6 @@ The Snake Game is a timeless arcade game where the objective is to navigate the 
    - Displays and updates the score on the screen.
    - Handles the "Game Over" message display.
 
----
 
 ## How to Run
 
@@ -62,3 +63,22 @@ The Snake Game is a timeless arcade game where the objective is to navigate the 
 3. Run the following command:
    ```bash
    python main.py
+   
+---
+## Game Controls
+
+- **Up Arrow (`↑`)**: Move the snake upwards.
+- **Down Arrow (`↓`)**: Move the snake downwards.
+- **Left Arrow (`←`)**: Move the snake to the left.
+- **Right Arrow (`→`)**: Move the snake to the right.
+
+### Additional Notes
+- The snake cannot move directly backward into itself:
+  - If the snake is moving upwards, it cannot move directly downwards.
+  - If the snake is moving to the right, it cannot move directly left.
+---
+
+
+
+
+
